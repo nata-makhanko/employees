@@ -1,4 +1,4 @@
-import { Component } from "react";
+import React, { Component } from "react";
 import AppInfo from "../app-info/app-info";
 import SearhPanel from "../search-panel/search-panel";
 import AppFilter from "../app-filter/app-filter";

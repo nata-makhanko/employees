@@ -1,4 +1,5 @@
 import "./app-info.css";
+import React from "react";
 
 const AppInfo = ({ employees, increased }) => {
   return (

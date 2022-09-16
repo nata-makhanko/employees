@@ -1,4 +1,5 @@
 import EmployeesListItem from "../employees-list-item/employees-list-item";
+import React from "react";
 import "./employees-list.css";
 
 const EmployeesList = ({ data, onDelete, onToggleProp }) => {

@@ -1,4 +1,4 @@
-import { Component } from "react";
+import React, { Component } from "react";
 import "./search-panel.css";
 
 class SearhPanel extends Component {
@@ -15,15 +15,14 @@ class SearhPanel extends Component {
     this.props.onUpdateSearch(term);
   };
   render() {
-    return (
-      <input
-        type="text"
-        className="form-control searh-input"
-        placeholder="Найти сотрудника"
-        value={this.state.term}
-        onChange={this.onUpdateSearch}
-      />
-    );
+    return <input
+      type="text"
+      className="form-control searh-input"
+      placeholder="Найти сотрудника"
+      value={this.state.term}
+      onChange={this.onUpdateSearch}
+    />
+
   }
 }
 
